@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,161,212,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 30px;
+    font-family: 'Trispace';
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.71);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.change-text {
+    margin-left: 15px;
+    margin-right: 20px;
+    flex-grow: 1;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 7px;
+    font-family: 'Trispace';
+}
+
+.fa-floppy-o:hover {
+    color: teal;
+}
+
+.fa-floppy-o {
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+h1 {
+    flex-grow: 2;
+}
+
+.fa fa-refresh {
+    flex-grow: 0;
+}
+
+.clear {
+    font-size: 40px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.clear:hover {
+    color: grey;
+}
+
+.content {
+    padding-top: 30px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.fa-circle-o {
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.fa-circle-o:hover {
+    color: darkgreen;
+}
+
+.fa-pencil-square-o {
+    cursor: pointer;
+    height: 19px;
+    flex-grow: 0;
+    margin-left: 15px;
+}
+
+.fa-pencil-square-o:hover {
+    color: darkblue;
+}
+
+.fa-check-circle-o {
+    flex-grow: 0;
+    cursor: pointer;
+    color:green;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.text {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.fa-trash-o {
+    flex-grow: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.add-item {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d22d16;
+    cursor: pointer;
+    font-family: 'Trispace';
+    margin-top: 15px;
+}
+
+#input {
+    flex-grow: 1;
+    padding: 7px;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 7px;
+    font-family: 'Trispace';
+}
+
+#warning {
+    margin-left: 45px;
+    margin-top: 15px;
+    color: red;
+    font-weight: bolder;
+    display: none;
+    font-size: 14px;
+}
+
+.date {
+    max-width: 300px;
+}
+
+.fa-trash-o:hover {
+    color: darkred;
+}
